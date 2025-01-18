@@ -4,7 +4,10 @@ import HomePage from "./Pages/HomePage";
 
 function App() {
   return (
-    <HomePage/>
+    <div>
+      <HomePage/>
+      <Footer />
+    </div>
   );
 }
 
