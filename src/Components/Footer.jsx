@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex justify-between  ">
         {/* Contact Us Section */}
         <div>
-          <h2 className="text-2xl font-array text-[60px] mb-4">
+          <h2 className="text-2xl font-array text-[60px] mb-4 mt-4">
             <span className="text-customGreen">Contact </span>
             <span className="text-white">us</span>
           </h2>
@@ -26,7 +26,7 @@ const Footer = () => {
 
         {/* Make Money with Us Section */}
         <div>
-          <h2 className="font-array text-[50px]">
+          <h2 className="font-array text-[60px] ">
             <span className="text-customGreen">Make Money </span>
             <span className="text-white">with us</span>
           </h2>

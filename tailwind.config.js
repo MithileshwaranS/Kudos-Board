@@ -13,8 +13,14 @@ export default {
         array:['Array'],
         ibm:['IBM Plex Mono'],
         neuo:['Neue Haas Grotesk Display Pro'],
-      }
+        playwrite:['Playwrite GB J Guides'],
+      },
+      textShadow: {
+        customGreen: "0px 0px 19.56px #1AFF00, 0px 0px 410.82px #1AFF00",
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-textshadow"), // Requires `tailwindcss-textshadow` plugin
+  ],
+}
 }
